@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 17776 KB, 시간: 212 ms
+메모리: 5380 KB, 시간: 60 ms
 
 ### 분류
 
@@ -22,36 +22,3 @@
 
  <p>첫째 줄에 준하의 놀람을 출력한다. 놀람은 아이디 뒤에 ??!를 붙여서 나타낸다.</p>
 
---------
-
-### 오답리뷰
-```java
-
-package baekjoon;
-
-import java.util.Scanner;
-
-public class no10926 {
-	public static void main(String[] args) {
-
-		Scanner scanner = new Scanner(System.in);
-
-		String str1 = "joonas";
-		String str2 = "baekjoon";
-
-		String A = scanner.nextLine();
-
-		if (A.equals(str1)) {
-			System.out.println(str1 + "??!");
-		} else if (A.equals(str2)) {
-			System.out.println(str2 + "??!");
-		} else {
-			System.out.println(A);
-		}
-
-	}
-}
-
-```
-
-이미 존재한다고 하길래 if문으로 문자열 비교를 했는데 아니었다 😅
